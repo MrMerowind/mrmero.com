@@ -1,0 +1,6 @@
+@import "../../../styles.scss";
+
+.iframeHeightAndWidth{
+    width: 100%;
+    height: calc(100vh - $nav-footer-height);
+}
