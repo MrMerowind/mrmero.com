@@ -1,10 +1,14 @@
 @import "../styles.scss";
 .fixed-footer{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     margin: 0;
+    padding: 0;
     height: $nav-footer-height;
+
 }
